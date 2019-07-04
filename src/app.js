@@ -18,7 +18,7 @@ app.use(express.static(publicDirectoryPath))
 // Routing
 app.get("/",(req,res) => {
     res.render("index",{
-        title: "Totoro Weather",
+        title: "Totoro Weather Station",
         message: "Totoro is so HAPPYYYY to help you find out about the weather",
         name: "Totoro - Your <3 neighbour"
     })

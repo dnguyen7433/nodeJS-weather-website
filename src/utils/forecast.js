@@ -10,7 +10,7 @@ const forecast = (latitude, longitude, callback) => {
                 callback("Location is invalid", undefined);
             } else {
                 callback( undefined, 
-                            body.daily.data[0].summary+ " The highest temperature of " + 
+                            "Forecast: " + body.daily.data[0].summary+ " The highest temperature of " + 
                             body.daily.data[0].temperatureHigh + " degrees and the lowest temperature of "+ 
                             body.daily.data[0].temperatureLow + " degrees. " + "It is currently " + 
                             body.currently.temperature + " degrees out. There is a " + 

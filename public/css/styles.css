@@ -6,9 +6,13 @@
 					0 18px 23px rgba(0,0,0,0.2);
 	
 }
+img{
+  width: 200px;
+  height: 300px;
+}
 body{
     background: url("https://wallpapercave.com/wp/4YUI4BG.jpg");
-    background-repeat: no-repeat;
+   
     background-size: cover;
     font-family: Lato;
     display: flex;
